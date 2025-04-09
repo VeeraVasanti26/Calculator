@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="StyleSheet" href="calci.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="calcu">
+    <div class="replay re"></div>
+    <input type="text" class="text" placeholder="0">
+    <div class="keys">
+      <button onclick="Clear('clear')" class="oper">AC</button>
+      <button onclick="Calculate('(')" class="oper">(</button>
+      <button onclick="Calculate(')')" class="oper">)</button>
+      <button onclick="Calculate('/')" class="oper">/</button>
+      <button onclick="Calculate('7')">7</button>
+      <button onclick="Calculate('8')">8</button>
+      <button onclick="Calculate('9')">9</button>
+      <button onclick="Calculate('*')" class="oper">*</button>
+      <button onclick="Calculate('4')">4</button>
+      <button onclick="Calculate('5')">5</button>
+      <button onclick="Calculate('6')">6</button>
+      <button onclick="Calculate('-')" class="oper">-</button>
+      <button onclick="Calculate('1')">1</button>
+      <button onclick="Calculate('2')">2</button>
+      <button onclick="Calculate('3')">3</button>
+      <button onclick="Calculate('+')" class="oper">+</button>
+      <button onclick="Calculate('0')">0</button>
+      <button onclick="Calculate('.')">.</button>
+      <button onclick="Remove()">DEL</button>
+      <button onclick="Eval('=')" class="oper">=</button>
+    </div>
+  </div>
+  <script src="calci.js">
+    
+  </script>
+</body>
+</html>
