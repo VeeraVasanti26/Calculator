@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calcu {
+  max-width: 345px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  position: relative;
+  padding-top: 15px;
+}
+
+button {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(142, 141, 141);
+  color: white;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 17px;
+  overflow: hidden;
+  border-top: 1px solid skyblue;
+}
+
+.text {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 85.5%;
+  padding: 20px 10px;
+  font-size: 37px;
+  font-weight: bold;
+  text-align: right;
+  border: none;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.text:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+button:active {
+  background-color: rgb(138, 136, 136);
+}
+
+.oper {
+  background-color: rgb(148, 223, 253);
+}
+
+.oper:hover {
+  background-color: rgb(168, 229, 253);
+}
+
+.oper:active {
+  background-color: rgb(197, 237, 253);
+}
+
+.replay {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 20px;
+  color: rgb(141, 140, 140);
+  padding-bottom: 13px;
+  margin-bottom: 13px;
+}
